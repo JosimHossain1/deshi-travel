@@ -18,6 +18,9 @@ body {
   --bg-primary: #ff5400;
 }
 
+.text-primary {
+  color: #ff5400;
+}
 .container {
   width: 1170px;
   margin: 0 auto;
