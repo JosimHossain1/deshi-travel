@@ -204,6 +204,58 @@ video {
   border-radius: 10px;
 }
 
+/* Discount Section */
+.deal-discount .top-title-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.deal-discount .top-title-section p {
+  width: 50%;
+  margin: 0 auto;
+}
+.discount-card,
+.card2 {
+  background-image: url("/assets/discount1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+}
+
+.deal-discount .card2 {
+  background-image: url("/assets/discount2.png");
+  justify-content: flex-end;
+}
+.discount-card .info-card {
+  background: rgba(255, 255, 255, 0.815);
+  width: 45%;
+  padding: 40px;
+  border-radius: 10px;
+}
+.discount-card .info-card span:nth-child(2) {
+  margin: 0 40px;
+}
+
+.discount-card .info-card i {
+  color: var(--bg-primary);
+}
+
+.discount-card .info-card h2,
+h4 {
+  margin: 15px 0;
+}
+
+.btn-wrap {
+  text-align: center;
+}
+
 /* Newsletter Section CSS */
 
 .newsletter .newsletter-side {
