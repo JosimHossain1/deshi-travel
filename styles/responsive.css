@@ -17,6 +17,480 @@
   .menu-bar i {
     font-size: 25px;
   }
+
+  @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Mulish;
+  }
+
+  /* Default Code */
+
+  :root {
+    --text-primary: #ff5400;
+    --text-secondary: #131318;
+    --bg-primary: #ff5400;
+  }
+
+  .text-primary {
+    color: #ff5400;
+  }
+  .container {
+    width: 86%;
+    margin: 0 auto;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section {
+    margin: 100px 0;
+  }
+  .title {
+    color: var(--text-secondary);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+  }
+
+  .sub-title {
+    color: var(--text-secondary);
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  p {
+    color: #131318b3;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .btn {
+    border: none;
+    border-radius: 8px;
+    background: var(--bg-primary);
+    color: white;
+    padding: 13px 25px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  /* Header area */
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  nav .logo h2 {
+    color: var(--text-secondary);
+    font-size: 36px;
+    font-weight: 800;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    list-style-type: none;
+    margin: 0px 10px;
+  }
+
+  nav ul li a {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s all ease;
+  }
+
+  nav ul li a:hover {
+    color: var(--bg-primary);
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  /* Banner */
+
+  .banner {
+    background: url("/assets/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .banner .wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .banner h1 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .banner p {
+    color: white;
+    margin: 30px;
+    width: 650px;
+    text-align: center;
+  }
+
+  .banner .find-now {
+    padding: 25px 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .banner .find-now select,
+  input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: gray;
+    outline: none;
+  }
+
+  /* Populer Tours */
+  .popular-tour {
+    margin-top: 150px;
+  }
+
+  .popular-tour .content-side p,
+  ul {
+    width: 550px;
+    margin: 35px 0;
+    color: rgba(19, 19, 24, 0.7);
+  }
+  .popular-tour ul li {
+    margin: 20px 20px 0px 45px;
+  }
+
+  /* destination Section CSS */
+
+  .destination .top-title-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .destination .top-title-section p {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .destination-gallery img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .destination-gallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .image1 {
+    grid-column: 1/7;
+    position: relative;
+  }
+  .image1::before {
+    content: "Maldives";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .image2 {
+    position: relative;
+    grid-column: 7/-1;
+  }
+
+  .image2::before {
+    content: "Indonesia";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .image3 {
+    position: relative;
+    grid-column: 1/5;
+  }
+
+  .image3::before {
+    content: "Srilanka";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .image4 {
+    position: relative;
+    grid-column: 5/10;
+  }
+
+  .image4::before {
+    content: "North America";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .image5 {
+    position: relative;
+    grid-column: 10/-1;
+  }
+  .image5::before {
+    content: "Kashmir";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .image6 {
+    position: relative;
+    grid-column: 1/6;
+  }
+  .image6::before {
+    content: "Bangladesh";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .image7 {
+    position: relative;
+    grid-column: 6/-1;
+  }
+
+  .image7::before {
+    content: "Bandarban";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  /* Why choose us */
+
+  .why-us .top-title-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .why-us .top-title-section p {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .why-us .service-box {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .why-us .service-box img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .why-us .service-box h3 {
+    margin: 10px 0;
+  }
+
+  .why-us .box1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+  }
+  .why-us .box2 {
+    border: 1px solid rgba(41, 206, 246, 0.2);
+
+    background: rgba(41, 206, 246, 0.05);
+  }
+  .why-us .box3 {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+
+    background: rgba(233, 68, 68, 0.05);
+  }
+  /* Discount Section */
+  .deal-discount .top-title-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .deal-discount .top-title-section p {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .discount-card,
+  .card2 {
+    background-image: url("/assets/discount1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+  }
+
+  .deal-discount .card2 {
+    background-image: url("/assets/discount2.png");
+    justify-content: flex-end;
+  }
+  .discount-card .info-card {
+    background: rgba(255, 255, 255, 0.815);
+    width: 45%;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .discount-card .info-card span:nth-child(2) {
+    margin: 0 40px;
+  }
+
+  .discount-card .info-card i {
+    color: var(--bg-primary);
+  }
+
+  .discount-card .info-card h2,
+  h4 {
+    margin: 15px 0;
+  }
+
+  .btn-wrap {
+    text-align: center;
+  }
+
+  /* Video Section */
+  .video-section {
+    gap: 20px;
+  }
+  .video-section .content-side h1 {
+    max-width: 450px;
+    margin: 10px 0;
+    font-weight: 900;
+  }
+
+  .video-section li {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 15px;
+    color: #131318;
+  }
+  video {
+    width: 600px;
+    border-radius: 10px;
+  }
+
+  /* Newsletter Section CSS */
+
+  .newsletter {
+    display: block;
+  }
+  .newsletter .newsletter-side {
+    height: 100%;
+    padding: 20px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .newsletter .newsletter-side p {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .newsletter .offer-side {
+    width: 100%;
+  }
+  /* Footer */
+
+  footer {
+    padding: 30px 0px;
+  }
+  footer p {
+    width: 100%;
+  }
+  footer hr {
+    width: 100%;
+    margin: 10px;
+  }
 }
 
 @media only screen and (min-width: 600px) and(max-width: 992px) {
