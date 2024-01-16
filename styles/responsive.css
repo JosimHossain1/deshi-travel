@@ -88,188 +88,57 @@
     margin: 15px 0;
   }
 
+  .popular-tour img {
+    width: 100%;
+  }
+
   /* destination Section CSS */
 
-  .destination .top-title-section {
-    text-align: center;
-    margin-bottom: 50px;
-  }
   .destination .top-title-section p {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
   }
   .destination-gallery img {
     width: 100%;
-    height: 300px;
+    height: 150px;
+    margin-top: 10px;
   }
 
   .destination-gallery {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
+    display: block;
   }
 
-  .image1 {
-    grid-column: 1/7;
-    position: relative;
-  }
   .image1::before {
-    content: "Maldives";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 20px;
   }
-  .image2 {
-    position: relative;
-    grid-column: 7/-1;
-  }
-
   .image2::before {
-    content: "Indonesia";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 20px;
   }
-
-  .image3 {
-    position: relative;
-    grid-column: 1/5;
-  }
-
   .image3::before {
-    content: "Srilanka";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 20px;
   }
-  .image4 {
-    position: relative;
-    grid-column: 5/10;
-  }
-
   .image4::before {
-    content: "North America";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 800;
-  }
-  .image5 {
-    position: relative;
-    grid-column: 10/-1;
+    font-size: 20px;
   }
   .image5::before {
-    content: "Kashmir";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 800;
-  }
-  .image6 {
-    position: relative;
-    grid-column: 1/6;
+    font-size: 20px;
   }
   .image6::before {
-    content: "Bangladesh";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 20px;
   }
-  .image7 {
-    position: relative;
-    grid-column: 6/-1;
-  }
-
   .image7::before {
-    content: "Bandarban";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 20px;
   }
+
   /* Why choose us */
-
-  .why-us .top-title-section {
-    text-align: center;
-    margin-bottom: 50px;
-  }
   .why-us .top-title-section p {
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
   }
-
   .why-us .service-box {
-    margin: 10px;
-    border-radius: 10px;
-    padding: 30px;
-  }
-  .why-us .service-box img {
-    width: 64px;
-    height: 64px;
-  }
-
-  .why-us .service-box h3 {
-    margin: 10px 0;
-  }
-
-  .why-us .box1 {
-    border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.2);
-    background: rgba(251, 181, 99, 0.05);
-  }
-  .why-us .box2 {
-    border: 1px solid rgba(41, 206, 246, 0.2);
-
-    background: rgba(41, 206, 246, 0.05);
+    margin-top: 25px;
   }
   .why-us .box3 {
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 30px;
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.2);
-
-    background: rgba(233, 68, 68, 0.05);
+    width: 95%;
   }
   /* Discount Section */
   .deal-discount .top-title-section {
