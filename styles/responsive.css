@@ -1,5 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  nav {
+    padding: 15px 0;
+  }
   nav .logo img {
     width: 50px;
   }
@@ -232,6 +235,9 @@
 /* Mobile Desive Responsive End */
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
+  nav {
+    padding: 15px 0;
+  }
   nav .logo {
     width: 400px;
   }
