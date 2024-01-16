@@ -40,6 +40,7 @@
   .btn {
     padding: 13px 25px;
     font-size: 17px;
+    margin-bottom: 20px;
   }
 
   /* Banner */
@@ -78,17 +79,13 @@
 
   /* Populer Tours */
   .popular-tour {
-    margin-top: 150px;
+    margin-top: 50px;
   }
 
   .popular-tour .content-side p,
   ul {
-    width: 550px;
-    margin: 35px 0;
-    color: rgba(19, 19, 24, 0.7);
-  }
-  .popular-tour ul li {
-    margin: 20px 20px 0px 45px;
+    width: 100%;
+    margin: 15px 0;
   }
 
   /* destination Section CSS */
