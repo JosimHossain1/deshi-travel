@@ -92,6 +92,32 @@
     width: 100%;
   }
 
+  /* black-friday CSS */
+  .black-friday .friday-box {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+  }
+  .black-friday .friday-box p {
+    width: 100%;
+  }
+
+  .black-friday .friday-box img {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .black-friday .box2 {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .black-friday .box2 h3 {
+    width: 100%;
+  }
+
   /* destination Section CSS */
 
   .destination .top-title-section p {
@@ -281,6 +307,27 @@
   .popular-tour img {
     width: 100%;
     height: 100%;
+  }
+
+  /* Black Friday */
+
+  .black-friday .friday-box {
+    width: 50%;
+    height: 250px;
+  }
+  .black-friday .box1 h1 {
+    width: 100%;
+  }
+  .black-friday .friday-box p {
+    width: 100%;
+  }
+
+  .black-friday .friday-box img {
+    display: none;
+  }
+
+  .black-friday .box2 h3 {
+    width: 100%;
   }
 
   /* destination Section CSS */
