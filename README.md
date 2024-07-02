@@ -14,6 +14,9 @@ Deshi Travel is a tourism website where people can find the tourism sport. Peopl
  
   # If you want to use this project
 
-  - Step 1: Open your terminal
-  - Paste the link: git clone https://github.com/JosimHossain1/deshi-travel.git
+  - Step 1: Open your terminal and open in vs code
+    ```bash
+    git clone https://github.com/JosimHossain1/deshi-travel.git
+    ```
+    
   - Open the html file in the browser.
